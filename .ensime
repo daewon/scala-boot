@@ -1,37 +1,45 @@
-(:subprojects
-((:runtime-deps
-("/Users/jaegyeonglee/.sbt/boot/scala-2.10.1/lib/scala-library.jar"
-"/Users/jaegyeonglee/scala/scala-boot/target/scala-2.10/classes"
-"/Users/jaegyeonglee/scala/scala-boot/target/scala-2.10/classes")
-:module-name
-"bootstrap"
-:compile-deps
-("/Users/jaegyeonglee/.sbt/boot/scala-2.10.1/lib/scala-library.jar")
-:version
-"0.1"
-:test-target
-"/Users/jaegyeonglee/scala/scala-boot/target/scala-2.10/test-classes"
-:name
-"bootstrap"
-:depends-on-modules
-()
-:package
-"bootstrap"
-:target
-"/Users/jaegyeonglee/scala/scala-boot/target/scala-2.10/classes"
-:source-roots
-("/Users/jaegyeonglee/scala/scala-boot/src/main/scala"
-"/Users/jaegyeonglee/scala/scala-boot/src/main/java"
-"/Users/jaegyeonglee/scala/scala-boot/target/scala-2.10/src_managed/main"
-"/Users/jaegyeonglee/scala/scala-boot/src/test/scala"
-"/Users/jaegyeonglee/scala/scala-boot/src/test/java"
-"/Users/jaegyeonglee/scala/scala-boot/target/scala-2.10/src_managed/test")
-:test-deps
-("/Users/jaegyeonglee/.sbt/boot/scala-2.10.1/lib/scala-library.jar"
-"/Users/jaegyeonglee/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-1.14.jar"
-"/Users/jaegyeonglee/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/jars/specs2-scalaz-core_2.10-7.0.0.jar"
-"/Users/jaegyeonglee/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/jars/specs2-scalaz-concurrent_2.10-7.0.0.jar"
-"/Users/jaegyeonglee/.ivy2/cache/org.specs2/scalaz-effect_2.10/jars/scalaz-effect_2.10-7.0.0.jar"
-"/Users/jaegyeonglee/.ivy2/cache/org.specs2/scalaz-core_2.10/jars/scalaz-core_2.10-7.0.0.jar"
-"/Users/jaegyeonglee/scala/scala-boot/target/scala-2.10/classes"
-"/Users/jaegyeonglee/scala/scala-boot/target/scala-2.10/test-classes"))))
+;; If your project contains a lot of files, it is advisable to enable (:disable-source-load-on-startup t)
+;; Otherwise Ensime might incur a massive lag at startup time
+;; See more information about that at http://aemoncannon.github.com/ensime/index.html
+
+(
+  :subprojects (
+    (
+      :name "bootstrap"
+      :module-name "bootstrap"
+      :depends-on-modules (
+      
+      )
+      :package "bootstrap"
+      :version "0.1"
+      :compile-deps (
+        "/Users/leejaegyung/.sbt/boot/scala-2.10.2/lib/scala-library.jar"
+      )
+      :runtime-deps (
+        "/Users/leejaegyung/.sbt/boot/scala-2.10.2/lib/scala-library.jar"
+        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/classes"
+        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/classes"
+      )
+      :test-deps (
+        "/Users/leejaegyung/.sbt/boot/scala-2.10.2/lib/scala-library.jar"
+        "/Users/leejaegyung/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-1.14.jar"
+        "/Users/leejaegyung/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/jars/specs2-scalaz-core_2.10-7.0.0.jar"
+        "/Users/leejaegyung/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/jars/specs2-scalaz-concurrent_2.10-7.0.0.jar"
+        "/Users/leejaegyung/.ivy2/cache/org.specs2/scalaz-effect_2.10/jars/scalaz-effect_2.10-7.0.0.jar"
+        "/Users/leejaegyung/.ivy2/cache/org.specs2/scalaz-core_2.10/jars/scalaz-core_2.10-7.0.0.jar"
+        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/classes"
+        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/test-classes"
+      )
+      :source-roots (
+        "/Users/leejaegyung/code/scala-boot/src/main/scala"
+        "/Users/leejaegyung/code/scala-boot/src/main/java"
+        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/src_managed/main"
+        "/Users/leejaegyung/code/scala-boot/src/test/scala"
+        "/Users/leejaegyung/code/scala-boot/src/test/java"
+        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/src_managed/test"
+      )
+      :target "/Users/leejaegyung/code/scala-boot/target/scala-2.10/classes"
+      :test-target "/Users/leejaegyung/code/scala-boot/target/scala-2.10/test-classes"
+    )
+  )
+)
