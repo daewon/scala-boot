@@ -1,17 +1,16 @@
 package com.daewon.scala
 
-object main extends App {
-  def perm[T](ls: List[T]): List[List[Any]] = ls match {
-    case List(n) => List(List(n))
-    case _ => {
-      ls.flatMap { n =>
-        perm(ls.filter(_ != n)).map { subs =>
-          n :: subs
-        }
-      }
-    }
-      //for (n <- ls; sub <- perm(ls.filter(_ != n))) yield n :: sub
-  }
+import java.util.Random
+import scala.util._
+import scala.util.control._
+import scala.util.control.Exception._
+import scala.language.reflectiveCalls._
+import scala.concurrent._
+import scala.concurrent.duration._
 
-  println(perm(List(1, 2, 3)))
+import ExecutionContext._
+
+class Pair[T, S](val first: T, second: S)
+
+object main extends App {
 }

@@ -13,33 +13,39 @@
       :package "bootstrap"
       :version "0.1"
       :compile-deps (
-        "/Users/leejaegyung/.sbt/boot/scala-2.10.2/lib/scala-library.jar"
+        "/Users/blueiur/.sbt/boot/scala-2.10.3/lib/scala-library.jar"
+        "/Users/blueiur/.ivy2/cache/org.scala-lang.modules/scala-async_2.10/bundles/scala-async_2.10-0.9.0-M4.jar"
+        "/Users/blueiur/.sbt/boot/scala-2.10.3/lib/scala-reflect.jar"
       )
       :runtime-deps (
-        "/Users/leejaegyung/.sbt/boot/scala-2.10.2/lib/scala-library.jar"
-        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/classes"
-        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/classes"
+        "/Users/blueiur/.sbt/boot/scala-2.10.3/lib/scala-library.jar"
+        "/Users/blueiur/.ivy2/cache/org.scala-lang.modules/scala-async_2.10/bundles/scala-async_2.10-0.9.0-M4.jar"
+        "/Users/blueiur/.sbt/boot/scala-2.10.3/lib/scala-reflect.jar"
+        "/Users/blueiur/code/scala-boot/target/scala-2.10/classes"
+        "/Users/blueiur/code/scala-boot/target/scala-2.10/classes"
       )
       :test-deps (
-        "/Users/leejaegyung/.sbt/boot/scala-2.10.2/lib/scala-library.jar"
-        "/Users/leejaegyung/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-1.14.jar"
-        "/Users/leejaegyung/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/jars/specs2-scalaz-core_2.10-7.0.0.jar"
-        "/Users/leejaegyung/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/jars/specs2-scalaz-concurrent_2.10-7.0.0.jar"
-        "/Users/leejaegyung/.ivy2/cache/org.specs2/scalaz-effect_2.10/jars/scalaz-effect_2.10-7.0.0.jar"
-        "/Users/leejaegyung/.ivy2/cache/org.specs2/scalaz-core_2.10/jars/scalaz-core_2.10-7.0.0.jar"
-        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/classes"
-        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/test-classes"
+        "/Users/blueiur/.sbt/boot/scala-2.10.3/lib/scala-library.jar"
+        "/Users/blueiur/.ivy2/cache/org.scala-lang.modules/scala-async_2.10/bundles/scala-async_2.10-0.9.0-M4.jar"
+        "/Users/blueiur/.sbt/boot/scala-2.10.3/lib/scala-reflect.jar"
+        "/Users/blueiur/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-1.14.jar"
+        "/Users/blueiur/.ivy2/cache/org.specs2/specs2-scalaz-core_2.10/jars/specs2-scalaz-core_2.10-7.0.0.jar"
+        "/Users/blueiur/.ivy2/cache/org.specs2/specs2-scalaz-concurrent_2.10/jars/specs2-scalaz-concurrent_2.10-7.0.0.jar"
+        "/Users/blueiur/.ivy2/cache/org.specs2/scalaz-effect_2.10/jars/scalaz-effect_2.10-7.0.0.jar"
+        "/Users/blueiur/.ivy2/cache/org.specs2/scalaz-core_2.10/jars/scalaz-core_2.10-7.0.0.jar"
+        "/Users/blueiur/code/scala-boot/target/scala-2.10/classes"
+        "/Users/blueiur/code/scala-boot/target/scala-2.10/test-classes"
       )
       :source-roots (
-        "/Users/leejaegyung/code/scala-boot/src/main/scala"
-        "/Users/leejaegyung/code/scala-boot/src/main/java"
-        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/src_managed/main"
-        "/Users/leejaegyung/code/scala-boot/src/test/scala"
-        "/Users/leejaegyung/code/scala-boot/src/test/java"
-        "/Users/leejaegyung/code/scala-boot/target/scala-2.10/src_managed/test"
+        "/Users/blueiur/code/scala-boot/src/main/scala"
+        "/Users/blueiur/code/scala-boot/src/main/java"
+        "/Users/blueiur/code/scala-boot/target/scala-2.10/src_managed/main"
+        "/Users/blueiur/code/scala-boot/src/test/scala"
+        "/Users/blueiur/code/scala-boot/src/test/java"
+        "/Users/blueiur/code/scala-boot/target/scala-2.10/src_managed/test"
       )
-      :target "/Users/leejaegyung/code/scala-boot/target/scala-2.10/classes"
-      :test-target "/Users/leejaegyung/code/scala-boot/target/scala-2.10/test-classes"
+      :target "/Users/blueiur/code/scala-boot/target/scala-2.10/classes"
+      :test-target "/Users/blueiur/code/scala-boot/target/scala-2.10/test-classes"
     )
   )
 )
